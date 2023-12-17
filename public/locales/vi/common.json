@@ -1,0 +1,393 @@
+{
+  "pages": {
+    "login": {
+      "title": "Đăng nhập tài khoản",
+      "signin": "Đăng nhập",
+      "signup": "Đăng ký",
+      "divider": "or",
+      "fields": {
+        "email": "Email",
+        "password": "Mật khẩu"
+      },
+      "errors": {
+        "validEmail": "Địa chỉ email không hợp lệ"
+      },
+      "buttons": {
+        "submit": "Đăng nhập",
+        "forgotPassword": "Quên mật khẩu?",
+        "noAccount": "Không có tài khoản?",
+        "rememberMe": "Nhớ mật khẩu"
+      }
+    },
+    "forgotPassword": {
+      "title": "Quên mật khẩu?",
+      "fields": {
+        "email": "Email"
+      },
+      "errors": {
+        "validEmail": "Địa chỉ email không hợp lệ"
+      },
+      "buttons": {
+        "submit": "Yêu cầu reset mật khẩu"
+      }
+    },
+    "register": {
+      "title": "Đăng ký tài khoản",
+      "fields": {
+        "email": "Email",
+        "password": "Mật khẩu"
+      },
+      "errors": {
+        "validEmail": "Địa chỉ email không hợp lệ"
+      },
+      "buttons": {
+        "submit": "Đăng ký",
+        "haveAccount": "Đã có tài khoản?"
+      }
+    },
+    "updatePassword": {
+      "title": "Cập nhật mật khẩu",
+      "fields": {
+        "password": "Mật khẩu mới",
+        "confirmPassword": "Xác thực mật khẩu mới"
+      },
+      "errors": {
+        "confirmPasswordNotMatch": "Mật khẩu không khớp"
+      },
+      "buttons": {
+        "submit": "Cập nhật"
+      }
+    },
+    "error": {
+      "info": "You may have forgotten to add the {{action}} component to {{resource}} resource.",
+      "404": "Sorry, the page you visited does not exist.",
+      "resource404": "Are you sure you have created the {{resource}} resource.",
+      "backHome": "Quay về Trang chủ"
+    }
+  },
+  "actions": {
+    "list": "Danh sách",
+    "create": "Tạo",
+    "edit": "Chỉnh sửa",
+    "show": "Xem"
+  },
+  "buttons": {
+    "create": "Tạo mới",
+    "save": "Lưu lại",
+    "logout": "Đăng xuất",
+    "delete": "Xoá",
+    "edit": "Chỉnh sửa",
+    "cancel": "Huỷ",
+    "confirm": "Bạn có chắc muốn thực hiện thao tác này?",
+    "filter": "Lọc",
+    "clear": "Xoá",
+    "refresh": "Tải lại",
+    "export": "Xuất file",
+    "show": "Xem",
+    "undo": "Hoàn tác",
+    "import": "Nhập file",
+    "clone": "Sao chép",
+    "notAccessTitle": "Bạn chưa được cấp quyền để thực hiện thao tác này"
+  },
+  "warnWhenUnsavedChanges": "Bạn có chắc muốn rời khỏi? Các thay đổi chưa được lưu sẽ bị mất.",
+  "notifications": {
+    "success": "Thành công",
+    "error": "Lỗi (mã lỗi: {{statusCode}})",
+    "undoable": "Bạn có {{seconds}} giây để hoàn tác.",
+    "createSuccess": "Đã tạo thành công {{resource}}",
+    "createError": "Có một lỗi khi đang tạo {{resource}} (mã lỗi: {{statusCode}})",
+    "deleteSuccess": "Xoá thành công",
+    "deleteError": "Lỗi khi đang xoá (mã lỗi: {{statusCode}})",
+    "editSuccess": "Chỉnh sửa thành công {{resource}}",
+    "editError": "Lỗi khi đang chỉnh sửa {{resource}} (mã lỗi: {{statusCode}})",
+    "importProgress": "Đang nhập: {{processed}}/{{total}}"
+  },
+  "loading": "Đang tải",
+  "tags": {
+    "clone": "Clone"
+  },
+  "dashboard": {
+    "titles": {
+      "list": "Báo cáo tổng quan",
+      "status" : "Trạng thái",
+      "totalCreatedOrders": "Tổng đơn đã tạo",
+      "totalPendingPickupOrders": "Đơn chờ lấy hàng",
+      "totalReceivedOrders": "Đơn đang trong tiến trình",
+      "totalDeliverySuccessfulOrders": "Đơn giao thành công",
+      "detail": "Chi tiết",
+      "totalOrders": "Tổng đơn: {{total}}",
+      "totalCOD": "COD: {{total}}",
+      "totalShipmentFee": "Ship: {{total}}",
+      "orderRatio": "Tỉ lệ đơn"
+    },
+    "fields": {
+      "total": "Tổng",
+      "customer": "Khách hàng",
+      "sale": "Sale",
+      "status": "Trạng thái",
+      "pendingPickup": "Chờ lấy hàng",
+      "deliveryInProgress": "Đang vận chuyển",
+      "deliveryFailed": "Vận chuyển thất bại",
+      "returnToSender": "Trả lại người gửi",
+      "deliverySucessful": "Giao thành công",
+      "cancelOrder": "Đơn hàng huỷ",
+      "totalOrders": "Số lượng"
+    }
+  },
+  "priceSheets": {
+    "buttons": {},
+    "fields": {},
+    "titles": {
+      "list": "Danh sách bảng giá",
+      "create": "Tạo bảng giá",
+      "edit": "Chỉnh sửa bảng giá",
+      "csvFile": "File csv mẫu",
+      "add": "Thêm",
+      "close": "Đóng",
+      "viewDetail": "Xem chi tiết",
+      "createCustomerPrice": "Cấu hình giá khách hàng",
+      "editCustomerPrice": "Chỉnh sửa giá khách hàng",
+      "listCustomerPrice": "Danh sách giá khách hàng"
+    },
+    "labels": {
+      "customer": "Khách hàng",
+      "namePriceSheet": "Tên bảng giá",
+      "carrier": "Đơn vị vận chuyển",
+      "fromWeight": "Từ",
+      "toWeight": "Đến",
+      "purchasePrice": "Gốc",
+      "salePrice": "Bán",
+      "zoneType": "Vùng",
+      "stepPrice": "Vượt 1kg",
+      "returnFee": "Phí hoàn",
+      "accountCarrier": "Tài khoản",
+      "createdAt": "Ngày tạo",
+      "updatedAt": "Ngày cập nhật",
+      "action": "Hành động",
+      "priceSheet": "Bảng giá",
+      "numOfPriceSheet": "Số bảng giá"
+    },
+    "placeholders": {
+      "customer": "Chọn khách hàng",
+      "priceSheet": "Chọn bảng giá"
+    }
+  },
+  "orders": {
+    "buttons": {
+      "create": "Tạo đơn hàng",
+      "search": "Tìm kiếm",
+      "clear": "Xoá bộ lọc",
+      "export": "Xuất file"
+    },
+    "fields": {},
+    "titles": {
+      "create": "Tạo đơn hàng",
+      "edit": "Đơn hàng {{tracking_id}}",
+      "filter": "Bộ lọc",
+      "selectOrderToExport": "Chọn đơn hàng để xuất",
+      "orderToExportAll": "Xuất toàn bộ theo bộ lọc",
+      "selectOrderToPrint": "Chọn đơn hàng để in",
+      "cancelOrder": "Huỷ đơn hàng",
+      "printOrderSizeA5": "In đơn hàng size A5",
+      "editOrder": "Chỉnh sửa đơn hàng",
+      "orderManagement": "Quản lý đơn hàng",
+      "searchResults": "Tổng {{total}} đơn hàng | {{totalSelected}} đơn hàng được chọn",
+      "viewDetails": "Xem chi tiết",
+      "close": "Đóng",
+      "action": "Hành động",
+      "createdAt": "Ngày tạo",
+      "updatedAt": "Ngày cập nhật",
+      "endDate": "Ngày giao thành công",
+      "statusOrder": "Trạng thái",
+      "shipmentFee": "Cước",
+      "totalCOD": "Tổng thu hộ",
+      "COD": "Tiền thu hộ",
+      "toPhoneNumber": "Số điện thoại người nhận",
+      "toName": "Người nhận",
+      "fromName": "Người gửi",
+      "customer": "Khách hàng",
+      "sale": "Sale",
+      "carrier": "Vận chuyển",
+      "trackingId": "Mã đơn hàng",
+      "parcelInfo": "Thông tin kiện hàng",
+      "product": "Sản phẩm",
+      "receiver": "Người nhận"
+    },
+    "labels": {
+      "customer": "Khách hàng",
+      "sale": "Sale",
+      "pickInfo": "Địa chỉ lấy hàng",
+      "fromName": "Tên người gửi",
+      "fromPhoneNumber": "Số điện thoại người gửi",
+      "fromProvince": "Số điện thoại người gửi",
+      "fromDistrict": "Số điện thoại người gửi",
+      "fromWard": "Số điện thoại người gửi",
+      "fromAddress": "Số điện thoại người gửi",
+      "toName": "Tên người nhận",
+      "toPhoneNumber": "Số điện thoại người nhận",
+      "toProvince": "Tỉnh nhận",
+      "toDistrict": "Quận/Huyện nhận",
+      "toWard": "Phường/Xã nhận",
+      "toAddress": "Địa chỉ nhận",
+      "width": "Chiều rộng",
+      "length": "Chiều dài",
+      "height": "Chiều cao",
+      "totalWeight": "Tổng khối lượng",
+      "cod": "Tiền thu hộ (COD)",
+      "hasInsuranceFee": "Bảo hiểm",
+      "InsuranceFee": "Phí bảo hiểm",
+      "parcelValue": "Giá trị hàng",
+      "merchantOrderNumber": "Mã tham chiếu đơn hàng",
+      "deliveryInstructions": "Ghi chú",
+      "shipmentFee": "Cước vận chuyển",
+      "totalFee": "Tổng thu",
+      "carrier": "Vận chuyển",
+      "shipBy": "Giao hàng bởi",
+      "createdAt": "Ngày tạo",
+      "updatedAt": "Ngày cập nhật",
+      "endDate": "Ngày giao thành công",
+      "orderStatus": "Trạng thái",
+      "orderReconciliationStatus": "Trạng thái đối soát",
+      "trackingId": "Mã đơn hàng",
+      "estimatedWeight": "Tổng khối lượng quy đổi (ước tính)",
+      "productName": "Tên sản phẩm",
+      "paymentType": "Thanh toán"
+    },
+    "placeholders": {
+      "customer": "Chọn khách hàng",
+      "sale": "Chọn sale",
+      "fromName": "Nhập tên người gửi",
+      "fromPhoneNumber": "Nhập số điện thoại người gửi",
+      "fromProvince": "Nhập tỉnh gửi",
+      "fromDistrict": "Nhập quận gửi",
+      "fromWard": "Nhập phường gửi",
+      "fromAddress": "Nhập địa chỉ gửi",
+      "toName": "Tên người nhận",
+      "toPhoneNumber": "Nhập số điện thoại người nhận",
+      "toProvince": "Nhập tỉnh nhận",
+      "toDistrict": "Nhập quận nhận",
+      "toWard": "Nhập phường nhận",
+      "toAddress": "Nhập địa chỉ nhận",
+      "width": "Nhập chiều rộng",
+      "length": "Nhập chiều dài",
+      "height": "Nhập chiều cao",
+      "weight": "Nhập khối lượng",
+      "cod": "Nhập phí thu hộ",
+      "parcelValue": "Nhập giá trị hàng",
+      "merchantOrderNumber": "Nhập mã tham chiếu đơn hàng",
+      "deliveryInstructions": "Nhập ghi chú",
+      "carrier": "Tìm kiếm bằng vận chuyển",
+      "fromDate": "Từ ngày",
+      "toDate": "Đến ngày",
+      "orderStatus": "Tìm kiếm bằng trạng thái đơn hàng",
+      "orderReconciliationStatus": "ìm kiếm bằng trạng thái đối soát",
+      "trackingId": "Tìm kiếm bằng mã đơn hàng",
+      "productName": "Nhập tên sản phẩm"
+    }
+  },
+  "reconciliations": {
+    "titles": {
+      "list": "Danh sách đối soát",
+      "confirmStatus" : "Xác thực trạng thái đối soát",
+      "show": "Xem đối soát"
+    },
+    "buttons": {
+      "export": "Xuất file",
+      "search": "Tìm kiếm",
+      "clear": "Đặt lại bộ lọc"
+    },
+    "placeholders": {
+      "status": "Trạng thái đối soát",
+      "customer": "Khách hàng",
+      "createdAt": "Ngày tạo đối soát",
+      "updatedAt": "Ngày cập nhật đối soát"
+    },
+    "fields": {
+      "reconciliationId": "Phiên đối soát",
+      "customer": "Khách hàng",
+      "sale": "Sale",
+      "totalOrders": "Số đơn",
+      "status": "Trạng thái",
+      "totalCustomerRefund": "Tổng hoàn khách",
+      "totalSystemRevenue": "Tổng lợi nhuận",
+      "createdAt": "Ngày tạo đối soát",
+      "updatedAt": "Ngày cập nhật đối soát",
+      "action": "Hành động",
+      "note": "Ghi chú",
+      "trackingId": "Mã đơn hàng",
+      "startDate": "Ngày tạo đơn",
+      "endDate": "Ngày giao hàng",
+      "carrier": "Vận chuyển",
+      "weight": "Trọng lượng",
+      "paymentType": "Thanh toán",
+      "partnerCashOnDelivery": "Thu hộ (file)",
+      "partnerShipmentFee": "Phí vận chuyển (file)",
+      "partnerReturnFee": "Phí hoàn (file)",
+      "partnerInsuranceFee": "Phí bảo hiểm (file)",
+      "partnerChangeFee": "Phí đổi địa chỉ (file)",
+      "partnerOtherFee": "Phí khác (file)",
+      "systemCashOnDelivery": "Thu hộ",
+      "systemShipmentFee": "Phí giao hàng",
+      "systemReturnFee": "Phí hoàn",
+      "systemInsuranceFee": "Phí bảo hiểm",
+      "systemChangeFee": "Phí đổi địa chỉ",
+      "systemOtherFee": "Phí khác"
+    }
+  },
+  "reconciliationOrders": {
+    "title": {
+      "list": "Danh sách đơn đã nhập",
+      "create": "Tạo đối soát",
+      "template": "Tải file mẫu"
+    },
+    "tooltips": {
+      "upload": "Nhập đơn từ vận chuyển",
+      "create": "Chọn các đơn trong danh sách để tạo đối soát. Đối soát sẽ được tạo theo khách hàng",
+      "copy": "Sao chép đơn hàng",
+      "copied": "Đã sao chép",
+      "copyError": "Lỗi khi sao chép"
+    },
+    "buttons": {
+      "upload": "Tải lên",
+      "create": "Tạo đối soát"
+    },
+    "fields": {
+      "customer": "Khách hàng",
+      "trackingId": "Mã đơn hàng",
+      "startDate": "Ngày tạo đơn",
+      "endDate": "Ngày giao thành công",
+      "statusOrder": "Trạng thái đơn hàng",
+      "weight": "Khối lượng",
+      "shipmentFee": "Cước vận chuyển",
+      "COD": "Tiền thu hộ",
+      "returnFee": "Phí hoàn",
+      "insuranceFee": "Phí bảo hiểm",
+      "changeFee": "Phí đổi địa chỉ",
+      "otherFee": "Phí khác",
+      "totalFee": "Tổng cước",
+      "createdAt": "Ngày upload đơn"
+    }
+  },
+  "table": {
+    "actions": "Actions"
+  },
+  "form": {
+    "labels": {
+      "province": "Tỉnh/Thành phố",
+      "district": "Quận/Huyện",
+      "ward": "Phường/Xã",
+      "address": "Địa chỉ",
+      "emailOrPhone": "Email hoặc số điện thoại",
+      "sale": "Sale",
+      "customer": "Khách hàng"
+    },
+    "placeholders": {
+      "emailOrPhone": "Email hoặc số điện thoại",
+      "sale": "Chọn sale",
+      "customer": "Chọn khách hàng"
+    },
+    "error": {
+      "notSelect:": "Vui lòng chọn {{resource}}."
+    }
+  }
+}
