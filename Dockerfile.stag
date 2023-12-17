@@ -1,8 +1,0 @@
-FROM node:alpine
-WORKDIR /usr/src/app
-COPY package*.json ./
-COPY . .
-RUN npm install
-RUN npm install -g serve
-RUN npm run build:stag
-CMD ["serve", "-s", "build"]
